@@ -27,7 +27,7 @@ void destornillador::setTamano(const double &tamano) {
 void destornillador::setTipo(const string &tipo) {
     destornillador::tipo = tipo;
 }
-string destornillador::destornillar()
+static string destornillador::destornillar()
 {
     return "destornillando....";
 }
