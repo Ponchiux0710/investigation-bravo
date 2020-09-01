@@ -7,6 +7,8 @@
 
 
 class NavajaSuizaGodClass {
+private:
+    int tamanho;
 
 };
 
