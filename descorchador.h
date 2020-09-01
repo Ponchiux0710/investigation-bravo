@@ -22,7 +22,7 @@ public:
 
     double getTamano() const;
 
-    string desencorchar();
+    static string descorchar();
 
     virtual ~descorchador();
 };

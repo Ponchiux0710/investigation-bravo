@@ -18,7 +18,7 @@ double descorchador::getTamano() const {
 void descorchador::setTamano(const double &tamano) {
 
 }
-string descorchador::desencorchar()
+static string descorchador::descorchar()
 {
     return "desencorchando....";
 }

@@ -11,8 +11,11 @@ private:
     int tamanho;
 public:
     static std::string cortar();
+    static std::string recortar();
     static std::string abrir();
     static std::string destornillar();
+
+
 
 };
 

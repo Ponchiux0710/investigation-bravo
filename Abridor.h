@@ -5,12 +5,12 @@
 #ifndef BASIC_00_EXAMPLE_ABRIDOR_H
 #define BASIC_00_EXAMPLE_ABRIDOR_H
 #include <string>
-
+#include <iostream>
 class Abridor {
 public:
     Abridor();
     virtual ~Abridor();
-    std::string Abrir();
+    static std::string Abrir();
 };
 
 
