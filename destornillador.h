@@ -29,7 +29,7 @@ public:
 
     void setTipo(const string &tipo);
 
-    string destornillar();
+    static string destornillar();
 
 };
 
