@@ -20,7 +20,7 @@ void descorchador::setTamano(const double &tamano) {
 }
 string descorchador::descorchar()
 {
-    return "desencorchando....";
+    return "desencorchando....\n";
 }
 descorchador::~descorchador() {
 

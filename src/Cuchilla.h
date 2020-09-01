@@ -10,6 +10,8 @@ class Cuchilla {
 private:
     int tamanho;
 public:
+    Cuchilla();
+
     Cuchilla(int tamanho);
 
     virtual ~Cuchilla();

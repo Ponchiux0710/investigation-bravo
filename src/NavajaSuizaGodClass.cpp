@@ -6,21 +6,21 @@
 
 
 std::string NavajaSuizaGodClass::cortar() {
-    return "Cortando";
+    return "Cortando\n";
 }
 
 std::string NavajaSuizaGodClass::recortar() {
-    return "Recortando";
+    return "Recortando\n";
 }
 
 std::string NavajaSuizaGodClass::abrir() {
-    return "Abriendo";
+    return "Abriendo\n";
 }
 
 std::string NavajaSuizaGodClass::destornillar() {
-    return "Destornillando";
+    return "Destornillando\n";
 }
 
 std::string NavajaSuizaGodClass::descorchar() {
-    return "Descorchando";
+    return "Descorchando\n";
 }

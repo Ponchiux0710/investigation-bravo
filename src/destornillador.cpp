@@ -4,6 +4,7 @@
 
 #include "destornillador.h"
 
+
 destornillador::destornillador() {
 
     tamano=0.0;
@@ -29,7 +30,7 @@ void destornillador::setTipo(const string &tipo) {
 }
 string destornillador::destornillar()
 {
-    return "destornillando....";
+    return "destornillando....\n";
 }
 destornillador::~destornillador() {
 

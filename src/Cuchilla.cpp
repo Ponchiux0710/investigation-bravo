@@ -3,7 +3,7 @@
 //
 
 #include "Cuchilla.h"
-
+Cuchilla::Cuchilla(){}
 Cuchilla::Cuchilla(int tamanho) : tamanho(tamanho) {}
 
 Cuchilla::~Cuchilla() {
@@ -19,6 +19,6 @@ void Cuchilla::setTamanho(int tamanho) {
 }
 
 std::string Cuchilla::cortar() {
-    return "Cortando";
+    return "Cortando\n";
 
 }
