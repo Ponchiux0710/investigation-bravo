@@ -4,7 +4,7 @@
 
 #ifndef BASIC_00_EXAMPLE_ABRIDOR_H
 #define BASIC_00_EXAMPLE_ABRIDOR_H
-
+#include <string>
 
 class Abridor {
 public:

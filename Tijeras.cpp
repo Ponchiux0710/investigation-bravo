@@ -13,5 +13,5 @@ Tijera::~Tijera() {
 }
 
 std::string Tijera::cortar() { //Responsabilidad unica de la clase
-    retunr "Cortando\n";
+    return "Cortando\n";
 }
