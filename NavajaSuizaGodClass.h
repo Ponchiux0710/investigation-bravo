@@ -4,11 +4,15 @@
 
 #ifndef BASIC_00_EXAMPLE_NAVAJASUIZAGODCLASS_H
 #define BASIC_00_EXAMPLE_NAVAJASUIZAGODCLASS_H
-
+#include <iostream>
 
 class NavajaSuizaGodClass {
 private:
     int tamanho;
+public:
+    static std::string cortar();
+    static std::string abrir();
+    static std::string destornillar();
 
 };
 

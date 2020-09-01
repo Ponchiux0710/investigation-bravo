@@ -18,7 +18,7 @@ public:
 
     void setTamanho(int tamanho);
 
-    std::string cortar();
+    static std::string cortar();
 
 };
 
