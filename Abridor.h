@@ -12,6 +12,6 @@ public:
     ~Abridor();
     std::string Abrir();
 };
-
+#include <iostream>
 
 #endif //BASIC_00_EXAMPLE_ABRIDOR_H
