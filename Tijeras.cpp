@@ -12,6 +12,6 @@ Tijera::~Tijera() {
     //Se destruye
 }
 
-std::string Tijera::cortar() { //Responsabilidad unica de la clase
+std::string Tijera::recortar() { //Responsabilidad unica de la clase
     return "Cortando\n";
 }

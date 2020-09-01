@@ -18,7 +18,7 @@ void Cuchilla::setTamanho(int tamanho) {
     Cuchilla::tamanho = tamanho;
 }
 
-static std::string Cuchilla::cortar() {
+std::string Cuchilla::cortar() {
     return "Cortando";
 
 }
