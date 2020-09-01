@@ -12,6 +12,6 @@ Abridor::~Abridor() {
     // Se destruye
 }
 
-static std::string Abridor::abrir() { //Responsabilidad unica de la clase
+static std::string Abridor::Abrir() { //Responsabilidad unica de la clase
     return "Abriendo\n";
 }
