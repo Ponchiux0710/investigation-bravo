@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.14)
 project(basic-00-example)
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(sample NavajaSuizaGodClass.h NavajaSuizaGodClass.cpp destornillador.cpp destornillador.h descorchador.cpp descorchador.h)
+add_executable(sample NavajaSuizaGodClass.h NavajaSuizaGodClass.cpp)
