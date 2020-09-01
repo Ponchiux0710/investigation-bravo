@@ -8,15 +8,15 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class descorchador {
+class Descorchador {
 
 private:
     double tamano;
 
 public:
 
-    descorchador();
-    descorchador(double tamano);
+    Descorchador();
+    Descorchador(double tamano);
 
     void setTamano(const double &tamano);
 
@@ -24,7 +24,7 @@ public:
 
     static string descorchar();
 
-    virtual ~descorchador();
+    virtual ~Descorchador();
 };
 
 

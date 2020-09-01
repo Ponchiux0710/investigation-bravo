@@ -4,7 +4,7 @@
 
 #include "Navaja.h"
 
-Navaja::Navaja(Tijera tijera,Cuchilla cuchilla1,destornillador __destornillador ,descorchador __descorchador, Abridor abridor1)
+Navaja::Navaja(Tijera tijera,Cuchilla cuchilla1,Destornillador __destornillador ,Descorchador __descorchador, Abridor abridor1)
 : tijeras(tijera), cuchilla(cuchilla1), _destornillador(__destornillador), _descorchador(__descorchador), abridor(abridor1) {
 
 }

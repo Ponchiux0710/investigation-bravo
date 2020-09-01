@@ -22,8 +22,8 @@ int main() {
     //Funciones...
     Tijera tijeras;
     Cuchilla cuchilla;
-    destornillador _destornillador;
-    descorchador _descorchador;
+    Destornillador _destornillador;
+    Descorchador _descorchador;
     Abridor abridor;
 
     std::cout <<"\nUsando el principio de unica responsabilidad...\n";

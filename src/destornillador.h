@@ -9,15 +9,15 @@
 #include <string>
 
 using namespace std;
-class destornillador {
+class Destornillador {
 
 private:
     double tamano;
     string tipo;
 
 public:
-    destornillador();
-    destornillador(const double &tamano, const string &tipo);
+    Destornillador();
+    Destornillador(const double &tamano, const string &tipo);
 
     const double &getTamano() const;
 
@@ -25,7 +25,7 @@ public:
 
     void setTamano(const double &tamano);
 
-    virtual ~destornillador();
+    virtual ~Destornillador();
 
     void setTipo(const string &tipo);
 

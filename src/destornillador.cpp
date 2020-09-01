@@ -5,34 +5,34 @@
 #include "destornillador.h"
 
 
-destornillador::destornillador() {
+Destornillador::Destornillador() {
 
     tamano=0.0;
     tipo=" ";
 
 }
-destornillador::destornillador(const double &tamano, const string &tipo) : tamano(tamano), tipo(tipo) {}
+Destornillador::Destornillador(const double &tamano, const string &tipo) : tamano(tamano), tipo(tipo) {}
 
-const double &destornillador::getTamano() const {
+const double &Destornillador::getTamano() const {
     return tamano;
 }
 
-const string &destornillador::getTipo() const {
+const string &Destornillador::getTipo() const {
     return tipo;
 }
 
-void destornillador::setTamano(const double &tamano) {
-    destornillador::tamano = tamano;
+void Destornillador::setTamano(const double &tamano) {
+    Destornillador::tamano = tamano;
 }
 
-void destornillador::setTipo(const string &tipo) {
-    destornillador::tipo = tipo;
+void Destornillador::setTipo(const string &tipo) {
+    Destornillador::tipo = tipo;
 }
-string destornillador::destornillar()
+string Destornillador::destornillar()
 {
     return "destornillando....\n";
 }
-destornillador::~destornillador() {
+Destornillador::~Destornillador() {
 
 }
 

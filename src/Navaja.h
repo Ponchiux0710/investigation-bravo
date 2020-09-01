@@ -14,12 +14,12 @@ class Navaja {
 private:
     Tijera tijeras;
     Cuchilla cuchilla;
-    destornillador _destornillador;
-    descorchador _descorchador;
+    Destornillador _destornillador;
+    Descorchador _descorchador;
     Abridor abridor;
 public:
     Navaja();
-    Navaja(Tijera,Cuchilla,destornillador,descorchador,Abridor);
+    Navaja(Tijera,Cuchilla,Destornillador,Descorchador,Abridor);
     virtual ~Navaja();
     std::string cortar();
     std::string recortar();

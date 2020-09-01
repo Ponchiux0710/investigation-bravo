@@ -6,23 +6,23 @@
 
 
 
-descorchador::descorchador() {
+Descorchador::Descorchador() {
     tamano=0.0;
 }
-descorchador::descorchador(double tamano) : tamano(tamano) {}
+Descorchador::Descorchador(double tamano) : tamano(tamano) {}
 
-double descorchador::getTamano() const {
+double Descorchador::getTamano() const {
     return tamano;
 }
 
-void descorchador::setTamano(const double &tamano) {
+void Descorchador::setTamano(const double &tamano) {
 
 }
-string descorchador::descorchar()
+string Descorchador::descorchar()
 {
     return "desencorchando....\n";
 }
-descorchador::~descorchador() {
+Descorchador::~Descorchador() {
 
 }
 
