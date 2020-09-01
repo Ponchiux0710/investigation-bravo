@@ -14,7 +14,7 @@ public:
     static std::string recortar();
     static std::string abrir();
     static std::string destornillar();
-    static std::string Abrir();
+
 
 
 };

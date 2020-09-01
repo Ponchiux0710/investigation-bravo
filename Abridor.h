@@ -10,7 +10,7 @@ class Abridor {
 public:
     Abridor();
     ~Abridor();
-    std::string Abrir();
+    static std::string abrir();
 };
 #include <iostream>
 
