@@ -9,7 +9,7 @@
 class Tijera {
 public:
     Tijera();
-    ~Tijera();
+    virtual ~Tijera();
     std::string cortar();
 };
 

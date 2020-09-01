@@ -9,7 +9,7 @@
 class Abridor {
 public:
     Abridor();
-    ~Abridor();
+    virtual ~Abridor();
     std::string Abrir();
 };
 
